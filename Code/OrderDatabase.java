@@ -30,7 +30,7 @@ public class OrderDatabase extends Database {
     /**
      * @param Order
      */
-    public void returnTotal(void Order) {
+    public void returnTotal(Order order) {
         // TODO implement here
     }
 

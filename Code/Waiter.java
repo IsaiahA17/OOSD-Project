@@ -15,14 +15,14 @@ public class Waiter extends Staff {
     /**
      * @param Order
      */
-    public void giveOrder(void Order) {
+    public void giveOrder(Order order) {
         // TODO implement here
     }
 
     /**
      * @param OrderDatabase
      */
-    public void checkTotal(void OrderDatabase) {
+    public void checkTotal(OrderDatabase orderDatabase) {
         // TODO implement here
     }
 

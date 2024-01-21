@@ -15,14 +15,14 @@ public class DeliveryDriver extends Staff {
     /**
      * @param Order
      */
-    public void deliverOrder(void Order) {
+    public void deliverOrder(Order order) {
         // TODO implement here
     }
 
     /**
      * @param Bill
      */
-    public void giveBill(void Bill) {
+    public void giveBill(Bill bill) {
         // TODO implement here
     }
 

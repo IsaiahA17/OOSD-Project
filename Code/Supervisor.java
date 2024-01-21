@@ -23,21 +23,21 @@ public class Supervisor extends Staff {
      * @param UnreservedTable 
      * @param Customer
      */
-    public void assignTable(void UnreservedTable, void Customer) {
+    public void assignTable(UnreservedTable unreservedTable, Customer customer) {
         // TODO implement here
     }
 
     /**
      * @param Customer
      */
-    public void addCustomerDetails(void Customer) {
+    public void addCustomerDetails(Customer customer) {
         // TODO implement here
     }
 
     /**
      * @param FoodItems
      */
-    public void addToOrder(void FoodItems) {
+    public void addToOrder(FoodItems foodItems) {
         // TODO implement here
     }
 
@@ -51,14 +51,14 @@ public class Supervisor extends Staff {
     /**
      * @param Order
      */
-    public void calculateTotal(void Order) {
+    public void calculateTotal(Order order) {
         // TODO implement here
     }
 
     /**
      * @param CustomerDatabase
      */
-    public void checkCustomerDetails(void CustomerDatabase) {
+    public void checkCustomerDetails(Customer customerDatabase) {
         // TODO implement here
     }
 
@@ -72,7 +72,7 @@ public class Supervisor extends Staff {
     /**
      * @param DeliveryDriver
      */
-    public void dispatchDriver(void DeliveryDriver) {
+    public void dispatchDriver(DeliveryDriver deliveryDriver) {
         // TODO implement here
     }
 

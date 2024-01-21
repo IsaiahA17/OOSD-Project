@@ -36,7 +36,7 @@ public class Customer {
     /**
      * @param FoodItems
      */
-    public void addToOrder(void FoodItems) {
+    public void addToOrder(FoodItems FoodItems) {
         // TODO implement here
     }
 

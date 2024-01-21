@@ -22,14 +22,14 @@ public class Chef extends Staff {
     /**
      * @param Order
      */
-    public void prepareOrder(void Order) {
+    public void prepareOrder(Order Order) {
         // TODO implement here
     }
 
     /**
      * @param Order
      */
-    public void sendOrder(void Order) {
+    public void sendOrder(Order Order) {
         // TODO implement here
     }
 
